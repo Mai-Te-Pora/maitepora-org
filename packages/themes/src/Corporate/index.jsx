@@ -12,7 +12,7 @@ import Box from "@pagerland/common/src/components/Box";
 import theme from "./theme";
 
 const Theme = ({ children }) => {
-  const darkMode = useDarkMode(true);
+  const darkMode = true; // useDarkMode(false);
 
   const [mounted, setMounted] = useState(false);
 
@@ -26,9 +26,9 @@ const Theme = ({ children }) => {
         ...theme,
         colors: {
           ...theme.colors,
-          ...theme.modes[darkMode.value ? "dark" : "light"],
+          ...theme.modes[darkMode ? "dark" : "light"],
         },
-        mode: darkMode.value ? "dark" : "light",
+        mode: darkMode ? "dark" : "light",
       }}
     >
       <Global />
