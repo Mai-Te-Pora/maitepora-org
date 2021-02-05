@@ -1,6 +1,5 @@
 {
     "files.exclude": {
-        ".mdx": true,
-        "**/.next": true
+        ".mdx": true
     }
 }

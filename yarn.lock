@@ -1210,53 +1210,6 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.3.tgz#a14fb6489d412b201b98aa44716fb8727ca4c6ae"
   integrity sha512-W3VKOqbg+4Kw+k6M/SODf+WIzwcx60nAemGV1nNPa/yrDtAS2YcJfqiswrJ3+2nJHzqefAFWn4XOfM0fy8ww2Q==
 
-"@pagerland/common@file:./packages/common":
-  version "1.0.0"
-  dependencies:
-    "@styled-system/prop-types" "5.1.5"
-    classnames "2.2.6"
-    formik "2.1.7"
-    jquery "3.5.1"
-    lodash "4.17.20"
-    normalize.css "8.0.1"
-    prop-types "15.7.2"
-    react "16.13.1"
-    react-animated-burgers "1.2.8"
-    react-collapse "5.0.1"
-    react-dom "16.13.1"
-    react-is "16.13.1"
-    react-on-screen "2.1.1"
-    react-reveal "1.2.2"
-    react-scroll "1.8.1"
-    react-slick "0.27.11"
-    react-sticky-el "2.0.5"
-    react-string-replace "0.4.4"
-    react-use "15.3.4"
-    shortid "2.2.15"
-    slick-carousel "1.8.1"
-    styled-components "5.2.0"
-    styled-media-query "2.1.2"
-    styled-system "5.1.5"
-    yup "0.29.3"
-
-"@pagerland/icons@file:./packages/icons":
-  version "1.0.0"
-  dependencies:
-    react "16.13.1"
-    react-dom "16.13.1"
-
-"@pagerland/themes@file:./packages/themes":
-  version "1.0.0"
-  dependencies:
-    "@react-google-maps/api" "1.10.1"
-    polished "4.0.1"
-    react "16.13.1"
-    react-countup "4.3.3"
-    react-dom "16.13.1"
-    react-images "1.1.7"
-    react-scroll-parallax "2.3.4"
-    use-dark-mode "^2.3.1"
-
 "@react-google-maps/api@1.10.1":
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/@react-google-maps/api/-/api-1.10.1.tgz#a1ebaac789771a8a8df66803edbc1f7b22dad4c6"
