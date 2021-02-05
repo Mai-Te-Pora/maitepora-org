@@ -26,3 +26,6 @@ yarn dev
 ```bash
 yarn build
 ```
+
+## License
+**No License**
